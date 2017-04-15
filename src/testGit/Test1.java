@@ -2,10 +2,25 @@ package testGit;
 
 public class Test1 {
 
+	private final String name;
+	private static int counter = 0;
+	private final int id = ++counter;
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("1 2 3 4 5 ");
-
+		
+	}
+	
+	Test1(String name){
+		this.name = name;
+	}
+	
+	public void f(){
+		System.out.println(name + id);
+		
+	}
+	
+	@Override
+	public String toString(){
+		return name + counter;
 	}
 
 }
