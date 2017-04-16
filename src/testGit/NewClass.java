@@ -8,7 +8,11 @@ public class NewClass extends Test1 {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		int i = 153;
+		long l = 98080980;
+		float f = 1.1344444444444f;
+		double d = 1.3450809;
+		System.out.printf("int: %d%nlong: %d%nfloat: %g%ndouble: %f", i, l, f, d);
 
 	}
 
