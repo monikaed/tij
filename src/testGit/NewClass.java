@@ -12,7 +12,7 @@ public class NewClass extends Test1 {
 		long l = 98080980;
 		float f = 1.1344444444444f;
 		double d = 1.3450809;
-		System.out.printf("int: %d%nlong: %d%nfloat: %g%ndouble: %f", i, l, f, d);
+		System.out.format("int: %d%nlong: %d%nfloat: %g%ndouble: %f", i, l, f, d);
 
 	}
 
